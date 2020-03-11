@@ -1,0 +1,24 @@
+Hi, i want to create one sample node js app that consist of:
+- 1 login (userid,password) once logged in the id can't be login again from other computer or until timeout
+- 1 home page with dynamic menu
+- 1 entry page that has input, datatables. Working save,delete button with mongodb
+- 1 blank page
+
+
+Ok let me rephrase. First you will get a login page where you will put username and password to login.
+If alread logged in on other system then don't.
+Now data entry page would be shown where there would be form to enter data and crud operations.
+Also use jquery datatable on this page. Use mongodb as databse
+
+Yes. One user only at one time
+
+Without cookies it will work. So if one person is using one id other person would not be able to use.
+Correct unless using diff id then he can use the system as well
+
+
+Then about entry page.. What i want is sample update/get/delete a document that have normal input and array data in table
+
+The screen is for inserting members details. In my understanding about mysql db only 1 systemid which is the record key is allowed right?
+But in mongo same systemid can be insert because the key is _id which is auto. Am i right regarding this
+
+Yup thats possible. So you want the search to be based upon both ids!
