@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@model.title</title>
+    <link rel="stylesheet" href="/global.css">
+        <link href="/hero.css" rel="stylesheet" />
+    
+    <link href="/login.css" rel="stylesheet" />
+    <script defer src="/site.js" ></script>
+</head>
+
+<body>
+   <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/Index">
+                        CRUD Demo
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="/Index">
+                            Home
+                        </a>
+                        <a class="navbar-item" href="/Catalogue">
+                            Catalogue
+                        </a>
+                        <a class="navbar-item" href="/GetAQuote">
+                            Get A Quote
+                        </a>
+                        <a class="navbar-item" href="/About">
+                            About Us
+                        </a>
+                        <a class="navbar-item" href="/Contact">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    @html.block('body')
+</body>
+
+</html>
