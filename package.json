@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ansarnisargill/MongoInsert#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^5.9.4",
+    "mongoose": "^5.13.15",
     "vash": "^0.13.0"
   }
 }
